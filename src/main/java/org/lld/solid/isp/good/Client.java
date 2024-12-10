@@ -9,6 +9,5 @@ public class Client {
         multiPurposePrinter.copy(doc);
         multiPurposePrinter.scan(doc);
         multiPurposePrinter.print(doc);  // has all three methods
-
     }
 }
