@@ -16,7 +16,7 @@ public class PaymentService {
     boolean MakePayment(String name) {
         if(paymentMethods.containsKey(name)) {
             PaymentMethod target = paymentMethods.get(name);
-            target.Pay();  // Runtime polymorphism
+            target.Pay();  // Runtime polymorphism // ~ Strategy Pattern
             return true;
         }
         else return false;
